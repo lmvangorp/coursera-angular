@@ -12,7 +12,7 @@
 
         $scope.parseItems = function(){
             var lunch = $scope.lunchItems;
-            var lunchList = lunch.split(' ');
+            var lunchList = lunch.split(',');
 
             if(lunch == ""){
                 $scope.message = "Please enter data first";
