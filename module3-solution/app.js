@@ -20,6 +20,7 @@ function NarrowItDownController(MenuSearchService){
 
                 if(result.length == 0){
                     ctrl.showNothingFoundMessage = true;
+                    ctrl.found = [];
                 }
                 else{
                     ctrl.showNothingFoundMessage = false;                    
@@ -29,6 +30,7 @@ function NarrowItDownController(MenuSearchService){
         }       
         else{
             ctrl.showNothingFoundMessage = true;
+            ctrl.found = [];
         }
     }
 
