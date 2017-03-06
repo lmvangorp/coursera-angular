@@ -1,3 +1,14 @@
+/*SIGN UP PAGE*/
+form {
+  margin: 10px;
+}
+
+input, button {
+  float: center;
+  color: black;
+  margin: 10px;
+}
+
 /* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
